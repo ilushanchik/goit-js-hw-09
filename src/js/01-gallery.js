@@ -65,7 +65,7 @@ const images = [
     }).join('');
   }
 
-  const galleryContainer = document.querySelector('.gallery-item');
+  const galleryContainer = document.querySelector('.gallery');
   galleryContainer.innerHTML = createGalleryMarkup(images);
 
   const lightbox = new SimpleLightbox('.gallery a', {
