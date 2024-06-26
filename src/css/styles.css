@@ -57,3 +57,73 @@
 .gallery-image:hover {
   transform: scale(1.05);
 }
+/* =======form====== */
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+ padding: 24px;
+}
+
+.input-label-form {
+  display: flex;
+  flex-direction: column;
+  color: #2E2F42;
+
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.04px;
+}
+
+.text-label-form {
+  display: flex;
+  flex-direction: column;
+  color: #2E2F42;
+
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.04px;
+}
+
+.form-input {
+  margin-top: 8px;
+  width: 360px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+border: 1px solid #808080;
+}
+.text-form {
+  margin-top: 8px;
+  display: flex;
+width: 360px;
+height: 80px;
+justify-content: center;
+align-items: center;
+}
+.form-button {
+  display: flex;
+  margin-top: 10px;
+padding: 8px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #4E75FF;
+color: #FFF;
+
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.04em;
+
+width: 64px;
+height: 24px;
+}
